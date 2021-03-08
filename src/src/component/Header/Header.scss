@@ -1,0 +1,33 @@
+.login-header-main{
+    background-color: #fff;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    h4{
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700;
+        color: #363636;
+    }
+    .show-active-step{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding-left: 10px;
+        li{
+            height: 5px;
+            width: 5px;
+            color: #aaaaaa;
+            list-style: none;
+            border: 1px solid #aaa;
+            margin: 5px;
+            background: #aaa;
+            border-radius: 10px;
+            &.active{
+                border-color: #000;
+                background-color: #000;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+$textwhite: #fff;
+$textcenter: center;
+
+.login-sidebar-main{
+    background-color: #286efa;
+    .ant-layout-sider-children{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        .title{
+            color: $textwhite;
+            font-size: 32px;
+            text-align: $textcenter;
+        }
+        .description{
+            color: $textwhite;
+        }
+    }
+}
